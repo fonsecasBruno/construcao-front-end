@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        .Form{
+            padding: 20px;
+        }
+        .hobbie{
+            border: 1px;
+            border-style: solid;
+        }
+
+    </style>
+</head>
+<body>
+    <Form class="Form">
+        <label for="nome">Nome:</label>
+        <input type="text">
+        <br>
+        <br>
+        <label for="telefone">Telefone:</label>
+        <input type="number">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email">
+        <br>
+        <br>
+        <label for="senha">Senha:</label>
+        <input type="password">
+        <br>
+        <br>
+        <label for="sexo">Sexo:</label>
+        <input type="radio" title="Masculino"> Masculino
+        <input type="radio" title="Feminino"> Feminino
+        <br>
+        <br>
+        <label for="uf">UF:</label>
+        <select name="UF" title="UF">
+            <option value="df">DF</option>
+            <option value="rj">RJ</option>
+            <option value="sp">SP</option>
+            <option value="ac">AC</option>
+            <option value="al">AL</option>
+            <option value="ap">AP</option>
+            <option value="AM">AM</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MT">MT</option>
+            <option value="MS">MS</option>
+            <option value="MG">MG</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PR">PR</option>
+            <option value="PE">PE</option>
+            <option value="PI">PI</option>
+            <option value="RN">RN</option>
+            <option value="RS">RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SE">SE</option>
+            <option value="TO">TO</option>
+        </select>
+        <br>
+        <br>
+        <div class="hobbie">
+            <label for="hobbies">Hobbie:</label>
+            <input type="checkbox" title="futebol">
+            <label for="futebol">Futebol</label>
+            <input type="checkbox" title="xadrez">
+            <label for="xadrez">Xadrez</label>
+            <input type="checkbox" name="Esportes" title="esportes">
+            <label for="esportes">Esportes</label>
+            <input type="checkbox" name="Musica" title="Musica">
+            <label for="musica">Musica</label>
+            <input type="checkbox" name="Cinema" title="cinema">
+            <label for="Cinema">Cinema</label>
+        </div>
+        <br>
+        <label for="">Observação: <textarea name="" id="" cols="30" rows="10"></textarea></label>
+        <br>
+        <br>
+        <button>Voltar</button>
+        <button>Limpar</button>
+        <button>Enviar</button>
+    </Form>
+</body>
+</html>
